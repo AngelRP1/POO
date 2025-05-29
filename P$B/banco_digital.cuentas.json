@@ -1,0 +1,576 @@
+[{
+  "_id": {
+    "$oid": "680581b461f29c58dc297afb"
+  },
+  "nombre": "Juan Pérez",
+  "rfc_curp": "PERJ800101HDFLRN01",
+  "numero_cliente": "0184500683",
+  "telefono": "5512345678",
+  "email": "juan@example.com",
+  "contrasena": "Pass123!",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "4111111111111111",
+      "nip": "1234",
+      "fecha_vencimiento": "12/25",
+      "limite": 0,
+      "saldo_disponible": 0
+    },
+    {
+      "tipo": "crédito",
+      "numero": "5555555555554444",
+      "nip": "4321",
+      "fecha_vencimiento": "10/26",
+      "limite": 50000,
+      "saldo_disponible": 49219.7
+    }
+  ],
+  "prestamos": [
+    {
+      "id_prestamo": "PR713366",
+      "monto": 10000,
+      "saldo_pendiente": 10000,
+      "tasa_interes": 12.5,
+      "fecha_inicio": "2025-04-20T17:22:28.280571200",
+      "fecha_vencimiento": "2026-04-20T17:22:28.280571200",
+      "estado": "activo"
+    }
+  ],
+  "acciones": [
+    {
+      "tipo": "pago_servicio",
+      "fecha": "2025-04-20T17:22:28.2955398",
+      "servicio": "luz",
+      "referencia": "654321",
+      "monto": 780.3,
+      "tarjeta_usada": "5555555555554444"
+    }
+  ],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "680581b461f29c58dc297afc"
+  },
+  "nombre": "María García",
+  "rfc_curp": "GARM750505MDFLRN02",
+  "numero_cliente": "0245527396",
+  "telefono": "5598765432",
+  "email": "maria@example.com",
+  "contrasena": "Pass456!",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "4012888888881881",
+      "nip": "5678",
+      "fecha_vencimiento": "06/24",
+      "limite": 0,
+      "saldo_disponible": 0
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6805d7693db8a27795914be0"
+  },
+  "nombre": "Angel Rivera",
+  "rfc_curp": "12/12/2002",
+  "numero_cliente": "0048014456",
+  "telefono": "8342071182",
+  "email": "angelriveraportillo@gmail.com",
+  "contrasena": "angel1221",
+  "saldo": 0,
+  "tarjetas": [],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877add9"
+  },
+  "nombre": "Ana Martínez",
+  "fecha_nacimiento": "1986-01-12",
+  "numero_cliente": "0723393923",
+  "telefono": "555886437",
+  "email": "ana.martínez@mail.com",
+  "contrasena": "pass193",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400028300047",
+      "nip": "931",
+      "fecha_vencimiento": "2029-02",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.287747200"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400032100265",
+      "nip": "874",
+      "fecha_vencimiento": "2029-12",
+      "limite": 7228,
+      "saldo_disponible": 7228,
+      "fecha_creacion": "2025-04-23T19:35:30.323750900"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400041590462",
+      "nip": "244",
+      "fecha_vencimiento": "2030-09",
+      "limite": 14534,
+      "saldo_disponible": 14534,
+      "fecha_creacion": "2025-04-23T19:35:30.334749900"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877adda"
+  },
+  "nombre": "Carlos Pérez",
+  "fecha_nacimiento": "1990-09-08",
+  "numero_cliente": "0149438707",
+  "telefono": "555805562",
+  "email": "carlos.pérez@mail.com",
+  "contrasena": "pass609",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400049576674",
+      "nip": "078",
+      "fecha_vencimiento": "2028-03",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.349270"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400058605142",
+      "nip": "320",
+      "fecha_vencimiento": "2030-10",
+      "limite": 7891,
+      "saldo_disponible": 7891,
+      "fecha_creacion": "2025-04-23T19:35:30.375273300"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400052250530",
+      "nip": "326",
+      "fecha_vencimiento": "2026-09",
+      "limite": 5342,
+      "saldo_disponible": 5342,
+      "fecha_creacion": "2025-04-23T19:35:30.383271800"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877addb"
+  },
+  "nombre": "Lucía Gómez",
+  "fecha_nacimiento": "1983-06-18",
+  "numero_cliente": "0419104791",
+  "telefono": "555431719",
+  "email": "lucía.gómez@mail.com",
+  "contrasena": "pass893",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400014599056",
+      "nip": "688",
+      "fecha_vencimiento": "2029-04",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.395270600"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400056338289",
+      "nip": "630",
+      "fecha_vencimiento": "2029-02",
+      "limite": 18386,
+      "saldo_disponible": 18386,
+      "fecha_creacion": "2025-04-23T19:35:30.421270400"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400036996304",
+      "nip": "015",
+      "fecha_vencimiento": "2027-01",
+      "limite": 14276,
+      "saldo_disponible": 14276,
+      "fecha_creacion": "2025-04-23T19:35:30.429279900"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877addc"
+  },
+  "nombre": "Pedro Torres",
+  "fecha_nacimiento": "1989-03-01",
+  "numero_cliente": "0239124686",
+  "telefono": "555463431",
+  "email": "pedro.torres@mail.com",
+  "contrasena": "pass633",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400021683878",
+      "nip": "730",
+      "fecha_vencimiento": "2028-04",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.439798200"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400097044073",
+      "nip": "559",
+      "fecha_vencimiento": "2027-01",
+      "limite": 8889,
+      "saldo_disponible": 8889,
+      "fecha_creacion": "2025-04-23T19:35:30.461800200"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400083684319",
+      "nip": "808",
+      "fecha_vencimiento": "2027-11",
+      "limite": 9491,
+      "saldo_disponible": 9491,
+      "fecha_creacion": "2025-04-23T19:35:30.468800300"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877addd"
+  },
+  "nombre": "María Rodríguez",
+  "fecha_nacimiento": "1981-04-28",
+  "numero_cliente": "0303090146",
+  "telefono": "555388627",
+  "email": "maría.rodríguez@mail.com",
+  "contrasena": "pass178",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400029055606",
+      "nip": "312",
+      "fecha_vencimiento": "2028-05",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.479800400"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400020005710",
+      "nip": "745",
+      "fecha_vencimiento": "2027-12",
+      "limite": 9692,
+      "saldo_disponible": 9692,
+      "fecha_creacion": "2025-04-23T19:35:30.508802200"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400098185683",
+      "nip": "187",
+      "fecha_vencimiento": "2028-12",
+      "limite": 6891,
+      "saldo_disponible": 6891,
+      "fecha_creacion": "2025-04-23T19:35:30.517800800"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877adde"
+  },
+  "nombre": "Juan Herrera",
+  "fecha_nacimiento": "1988-08-17",
+  "numero_cliente": "0300567301",
+  "telefono": "555482383",
+  "email": "juan.herrera@mail.com",
+  "contrasena": "pass777",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400050672225",
+      "nip": "158",
+      "fecha_vencimiento": "2028-10",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.533080"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400036495610",
+      "nip": "951",
+      "fecha_vencimiento": "2030-02",
+      "limite": 6819,
+      "saldo_disponible": 6819,
+      "fecha_creacion": "2025-04-23T19:35:30.561611200"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400050442108",
+      "nip": "332",
+      "fecha_vencimiento": "2027-02",
+      "limite": 5763,
+      "saldo_disponible": 5763,
+      "fecha_creacion": "2025-04-23T19:35:30.566612200"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877addf"
+  },
+  "nombre": "Laura Mendoza",
+  "fecha_nacimiento": "1987-03-23",
+  "numero_cliente": "0601781475",
+  "telefono": "555206453",
+  "email": "laura.mendoza@mail.com",
+  "contrasena": "pass432",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400080398887",
+      "nip": "593",
+      "fecha_vencimiento": "2029-12",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.577618500"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400028962848",
+      "nip": "179",
+      "fecha_vencimiento": "2029-10",
+      "limite": 7573,
+      "saldo_disponible": 7573,
+      "fecha_creacion": "2025-04-23T19:35:30.602615100"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400066825316",
+      "nip": "681",
+      "fecha_vencimiento": "2026-02",
+      "limite": 19727,
+      "saldo_disponible": 19727,
+      "fecha_creacion": "2025-04-23T19:35:30.611613100"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877ade0"
+  },
+  "nombre": "Diego Ramírez",
+  "fecha_nacimiento": "1992-08-13",
+  "numero_cliente": "0152383566",
+  "telefono": "555576475",
+  "email": "diego.ramírez@mail.com",
+  "contrasena": "pass496",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "crédito",
+      "numero": "400077099226",
+      "nip": "565",
+      "fecha_vencimiento": "2029-02",
+      "limite": 17318,
+      "saldo_disponible": 17318,
+      "fecha_creacion": "2025-04-23T19:35:30.646161400"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400088901006",
+      "nip": "217",
+      "fecha_vencimiento": "2028-04",
+      "limite": 15148,
+      "saldo_disponible": 15148,
+      "fecha_creacion": "2025-04-23T19:35:30.653158600"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877ade1"
+  },
+  "nombre": "Sofía Vargas",
+  "fecha_nacimiento": "1986-09-01",
+  "numero_cliente": "0746664502",
+  "telefono": "555189079",
+  "email": "sofía.vargas@mail.com",
+  "contrasena": "pass192",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400030590230",
+      "nip": "217",
+      "fecha_vencimiento": "2026-09",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.664158"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400092902047",
+      "nip": "248",
+      "fecha_vencimiento": "2027-12",
+      "limite": 7401,
+      "saldo_disponible": 7401,
+      "fecha_creacion": "2025-04-23T19:35:30.689257300"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400092406101",
+      "nip": "131",
+      "fecha_vencimiento": "2028-05",
+      "limite": 5337,
+      "saldo_disponible": 5337,
+      "fecha_creacion": "2025-04-23T19:35:30.696614900"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809956204145724d877ade2"
+  },
+  "nombre": "Andrés Castillo",
+  "fecha_nacimiento": "1993-05-18",
+  "numero_cliente": "0711181307",
+  "telefono": "555991861",
+  "email": "andrés.castillo@mail.com",
+  "contrasena": "pass806",
+  "saldo": 0,
+  "tarjetas": [
+    {
+      "tipo": "débito",
+      "numero": "400054917015",
+      "nip": "288",
+      "fecha_vencimiento": "2026-07",
+      "limite": 0,
+      "saldo_disponible": 0,
+      "fecha_creacion": "2025-04-23T19:35:30.706616400"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400018779492",
+      "nip": "923",
+      "fecha_vencimiento": "2030-07",
+      "limite": 10496,
+      "saldo_disponible": 10496,
+      "fecha_creacion": "2025-04-23T19:35:30.731630200"
+    },
+    {
+      "tipo": "crédito",
+      "numero": "400073258805",
+      "nip": "947",
+      "fecha_vencimiento": "2026-11",
+      "limite": 6068,
+      "saldo_disponible": 6068,
+      "fecha_creacion": "2025-04-23T19:35:30.738768"
+    }
+  ],
+  "prestamos": [],
+  "acciones": [],
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "680995f0a874433ec4ea8bfa"
+  },
+  "nombre": "Joshua André Alvarado Tovar",
+  "fecha_nacimiento": "26/03/2005",
+  "numero_cliente": "admin",
+  "telefono": "8341543050",
+  "email": "joshua@example.com",
+  "contrasena": "admin",
+  "rango": "Admin",
+  "esSubgerente": false
+},
+{
+  "_id": {
+    "$oid": "6809c487ea113e161c0ecf6e"
+  },
+  "numero_cliente": "fer12",
+  "nombre": "Fernando Rivera",
+  "fecha_nacimiento": "28/08/1998",
+  "telefono": "8341232344",
+  "email": "fernando@gmail.com",
+  "contrasena": "fer1234",
+  "rango": "Subgerente",
+  "esSubgerente": true
+},
+{
+  "_id": {
+    "$oid": "6809c509ea113e161c0ecf6f"
+  },
+  "numero_cliente": "rubinguin",
+  "nombre": "Rubi Cobos",
+  "fecha_nacimiento": "20/10/2004",
+  "telefono": "1234567890",
+  "email": "rubi@gmail.com",
+  "contrasena": "rubi1234",
+  "rango": "Subgerente",
+  "esSubgerente": true
+},
+{
+  "_id": {
+    "$oid": "6809c75341bed970b6d034a2"
+  },
+  "numero_cliente": "angel123",
+  "nombre": "Angel Rivera",
+  "fecha_nacimiento": "12/12/2002",
+  "telefono": "8342071182",
+  "email": "angelrivera@gmail.com",
+  "contrasena": "angel1234",
+  "rango": "Subgerente",
+  "esSubgerente": true
+}]
