@@ -1,0 +1,10 @@
+# carpetas de compilación
+/target/
+/build/
+
+# clases compiladas
+*.class
+
+# configs de IDE
+.idea/
+*.iml
